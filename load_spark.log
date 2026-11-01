@@ -1,0 +1,2 @@
+{'input_rate': 100, 'observed_throughput': 100.0, 'avg_batch_ms': 524, 'max_batch_ms': 738, 'processed_rows_per_s': 195.7, 'cpu_pct': 41.7, 'batches': 15}
+{'input_rate': 500, 'observed_throughput': 500.0, 'avg_batch_ms': 406.3, 'max_batch_ms': 496, 'processed_rows_per_s': 1250.1, 'cpu_pct': 32.1, 'batches': 15}

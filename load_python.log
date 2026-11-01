@@ -1,0 +1,5 @@
+{'input_rate': 10, 'sent': 200, 'processed': 200, 'throughput': 10.0, 'avg_latency_ms': 0.16, 'p95_latency_ms': 0.19, 'max_latency_ms': 0.23, 'cpu_pct': 2.1}
+{'input_rate': 100, 'sent': 2000, 'processed': 2000, 'throughput': 100.0, 'avg_latency_ms': 0.1, 'p95_latency_ms': 0.13, 'max_latency_ms': 1.31, 'cpu_pct': 3.0}
+{'input_rate': 500, 'sent': 10000, 'processed': 10000, 'throughput': 500.0, 'avg_latency_ms': 0.09, 'p95_latency_ms': 0.11, 'max_latency_ms': 7.6, 'cpu_pct': 6.5}
+{'input_rate': 5000, 'sent': 50000, 'processed': 50000, 'throughput': 5000.0, 'avg_latency_ms': 2.05, 'p95_latency_ms': 0.11, 'max_latency_ms': 260.81, 'cpu_pct': 38.5}
+{'input_rate': 20000, 'sent': 200000, 'processed': 200000, 'throughput': 20000.0, 'avg_latency_ms': 0.08, 'p95_latency_ms': 0.18, 'max_latency_ms': 8.87, 'cpu_pct': 85.2}

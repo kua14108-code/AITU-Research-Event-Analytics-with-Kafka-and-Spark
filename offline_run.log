@@ -1,0 +1,32 @@
+status: {'completed': 8, 'failed': 2} invalid: 0
+by job_type: {
+ "image": {
+  "completed": 3,
+  "failed": 0,
+  "avg_duration": 77.67
+ },
+ "ml": {
+  "completed": 2,
+  "failed": 1,
+  "avg_duration": 52.33
+ },
+ "simulation": {
+  "completed": 1,
+  "failed": 1,
+  "avg_duration": 107.5
+ },
+ "text": {
+  "completed": 2,
+  "failed": 0,
+  "avg_duration": 20.0
+ }
+}
+avg CPU by group: {'G01': 68.5, 'G02': 62.0, 'G03': 86.33}
+windows:
+  {'window': '14:00:00-14:00:05', 'events': 'E001,E002,E003,E004', 'count': 4, 'failure_rate': 0.25, 'avg_cpu': 66.25}
+  {'window': '14:00:05-14:00:10', 'events': 'E005,E006,E007,E008,E009', 'count': 5, 'failure_rate': 0.2, 'avg_cpu': 75.2}
+  {'window': '14:00:10-14:00:15', 'events': 'E010', 'count': 1, 'failure_rate': 0.0, 'avg_cpu': 78.0}
+validate X1 -> (False, 'missing field timestamp')
+validate X2 -> (False, 'unknown job_type')
+validate X3 -> (False, 'bad type for duration_sec')
+validate X4 -> (False, 'value out of range')

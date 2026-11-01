@@ -1,0 +1,20 @@
+[
+ {
+  "shuffle_partitions": 200,
+  "batches_completed": 5,
+  "avg_batch_ms": 10063.8,
+  "max_batch_ms": 13128
+ },
+ {
+  "shuffle_partitions": 3,
+  "batches_completed": 15,
+  "avg_batch_ms": 427.8,
+  "max_batch_ms": 622
+ },
+ {
+  "shuffle_partitions": 1,
+  "batches_completed": 15,
+  "avg_batch_ms": 301.6,
+  "max_batch_ms": 404
+ }
+]
